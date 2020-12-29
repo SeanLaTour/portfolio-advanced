@@ -17,7 +17,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 10px;
-	background: rgb(16, 98, 109, 0.7);
+	background: rgba(0, 20, 22, 0.7);
 	border-radius: 7px;
 }
 
@@ -45,25 +45,26 @@ header nav ul li a{
 .introduction {
 	padding: 10px 10px 10px 10px;
 	color: #dedede;
-	background: rgb(16, 98, 109, 0.7);
-	border-radius: 7px;
+	background: rgba(0, 20, 22, 0.7);
+	border-radius: 10px;
 	margin-bottom: 20px;
 }
 
 .about-me {
 	padding: 10px 10px 10px 10px;
 	color: #dedede;
-	background: rgb(16, 98, 109, 0.7);
-	border-radius: 7px;
+	background: rgba(0, 20, 22, 0.7);
+	border-radius: 10px;
 	margin-bottom: 20px;
 }
 
 .skills {
 	display: flex;
+	justify-content: center;
 	color: #dedede;
-	background: rgb(16, 98, 109, 0.7);
+	background: rgba(0, 20, 22, 0.7);
 	padding: 10px 10px 10px 10px;
-	border-radius: 7px;
+	border-radius: 10px;
 	margin-bottom: 20px;
 }
 
@@ -75,8 +76,8 @@ header nav ul li a{
 .projects {
 	padding: 10px 10px 10px 10px;
 	color: #dedede;
-	background: rgb(16, 98, 109, 0.7);
-	border-radius: 7px;
+	background: rgba(0, 20, 22, 0.7);
+	border-radius: 10px;
 	margin-bottom: 20px;
 }
 
@@ -85,10 +86,10 @@ header nav ul li a{
 }
 
 .contacts {
-	padding: 10px 10px 10px 10px;
+	padding: 10px 50px 10px 50px;
 	color: #dedede;
-	background: rgb(16, 98, 109, 0.7);
-	border-radius: 7px;
+	background: rgba(0, 20, 22, 0.7);
+	border-radius: 10px;
 }
 
 .contacts ul {
@@ -107,33 +108,114 @@ header nav ul li a{
 footer {
 	text-align: center;
 	color: #dedede;
-	background: rgb(16, 98, 109, 0.7);
-	border-radius: 7px;
+	background: rgba(0, 20, 22, 0.7);
+	padding: 5px 0 5px 0;
+	border-radius: 10px;
 }
 
 form {
 	display: flex;
 	flex-direction: column;
+	padding-bottom: 10px;
 }
 
 form textarea {
 	margin-bottom: 10px;
+	height: 75px;
 	}
 
-/*
-	For Desktop > 800px
- */
+hr {
+	color: rgba(0, 20, 22, 0.7);
+}
+
+/* For Screen larger than 600px */
 
  @media all and (min-width: 600px) {
 	 header {
 		 display: flex;
 		 flex-direction: row;
 		 justify-content: space-between;
-		 padding-left: 20px;
+		 padding-left: 30px;
+		 padding-right: 30px;
 	 }
 
 	 header nav {
 		 display: flex;
+		 padding-top: 15px;
 	 }
 
+	 .skills {
+		 justify-content: space-evenly;
+	 }
+
+	 .projects {
+		 padding-left: 30px;
+		 padding-right: 30px;
+	 }
+
+	 .about-me {
+		 padding-left: 30px;
+		 padding-right: 30px;
+	 }
+
+	 .introduction {
+		 padding-left: 30px;
+		 padding-right: 30px;
+	 }
+
+	 .contacts {
+		 padding-left: 140px;
+		 padding-right: 140px;
+	 }
+
+	 footer {
+		 padding-left: 30px;
+		 padding-right: 30px;
+	 }
+ }
+
+ /* For Screen larger than 1000px */
+
+ @media all and (min-width: 1000px) {
+	 header {
+		 display: flex;
+		 flex-direction: row;
+		 justify-content: space-between;
+		 padding-left: 70px;
+		 padding-right: 70px;
+	 }
+
+	 header nav {
+		 display: flex;
+		 padding-top: 15px;
+	 }
+
+	 .skills {
+		 justify-content: space-evenly;
+	 }
+
+	 .projects {
+		 padding-left: 70px;
+		 padding-right: 70px;
+	 }
+
+	 .about-me {
+		 padding-left: 70px;
+		 padding-right: 70px;
+	 }
+
+	 .introduction {
+		 padding-left: 70px;
+		 padding-right: 70px;
+	 }
+
+	 .contacts {
+		 padding-left: 290px;
+		 padding-right: 290px;
+	 }
+
+	 footer {
+		 padding-left: 70px;
+		 padding-right: 70px;
+	 }
  }
