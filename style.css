@@ -16,7 +16,7 @@ p {
 header {
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 	background: rgb(16, 98, 109, 0.7);
 	border-radius: 7px;
 }
@@ -24,7 +24,6 @@ header {
 header h1 {
 	text-align: center;
 	color: #dedede;
-	padding-top: 20px;
 }
 
 header nav {
@@ -44,14 +43,15 @@ header nav ul li a{
 }
 
 .introduction {
-	padding: 0 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
 	color: #dedede;
 	background: rgb(16, 98, 109, 0.7);
 	border-radius: 7px;
+	margin-bottom: 20px;
 }
 
 .about-me {
-	padding: 0 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
 	color: #dedede;
 	background: rgb(16, 98, 109, 0.7);
 	border-radius: 7px;
@@ -62,8 +62,9 @@ header nav ul li a{
 	display: flex;
 	color: #dedede;
 	background: rgb(16, 98, 109, 0.7);
-	padding: 0 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
 	border-radius: 7px;
+	margin-bottom: 20px;
 }
 
 .skills-items{
@@ -72,10 +73,11 @@ header nav ul li a{
 }
 
 .projects {
-	padding: 0 10px 0 10px;
+	padding: 10px 10px 10px 10px;
 	color: #dedede;
 	background: rgb(16, 98, 109, 0.7);
 	border-radius: 7px;
+	margin-bottom: 20px;
 }
 
 .projects a {
@@ -83,11 +85,10 @@ header nav ul li a{
 }
 
 .contacts {
-	padding: 0 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
 	color: #dedede;
 	background: rgb(16, 98, 109, 0.7);
 	border-radius: 7px;
-
 }
 
 .contacts ul {
@@ -123,6 +124,16 @@ form textarea {
 	For Desktop > 800px
  */
 
- @media all and (min-width: 800px) {
+ @media all and (min-width: 600px) {
+	 header {
+		 display: flex;
+		 flex-direction: row;
+		 justify-content: space-between;
+		 padding-left: 20px;
+	 }
+
+	 header nav {
+		 display: flex;
+	 }
 
  }
