@@ -1,0 +1,128 @@
+/* 
+	Mobile first development
+ */
+
+ body {
+	background-image: url("back.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+p {
+	color: #dedede;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 40px;
+	background: rgb(16, 98, 109, 0.7);
+	border-radius: 7px;
+}
+
+header h1 {
+	text-align: center;
+	color: #dedede;
+	padding-top: 20px;
+}
+
+header nav {
+	display: flex;
+	justify-content: center;
+}
+
+header nav ul {
+	display: flex;
+	padding-left: 0;
+	list-style: none;
+}
+
+header nav ul li a{
+	margin: 0 20px 0 0;
+	color: #dedede;
+}
+
+.introduction {
+	padding: 0 10px 10px 10px;
+	color: #dedede;
+	background: rgb(16, 98, 109, 0.7);
+	border-radius: 7px;
+}
+
+.about-me {
+	padding: 0 10px 10px 10px;
+	color: #dedede;
+	background: rgb(16, 98, 109, 0.7);
+	border-radius: 7px;
+	margin-bottom: 20px;
+}
+
+.skills {
+	display: flex;
+	color: #dedede;
+	background: rgb(16, 98, 109, 0.7);
+	padding: 0 10px 10px 10px;
+	border-radius: 7px;
+}
+
+.skills-items{
+	display: flex;
+	flex-direction: column;
+}
+
+.projects {
+	padding: 0 10px 0 10px;
+	color: #dedede;
+	background: rgb(16, 98, 109, 0.7);
+	border-radius: 7px;
+}
+
+.projects a {
+	color: #dedede;
+}
+
+.contacts {
+	padding: 0 10px 10px 10px;
+	color: #dedede;
+	background: rgb(16, 98, 109, 0.7);
+	border-radius: 7px;
+
+}
+
+.contacts ul {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+
+.contacts ul li a {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-right: 20px;
+	color: #dedede;
+}
+
+footer {
+	text-align: center;
+	color: #dedede;
+	background: rgb(16, 98, 109, 0.7);
+	border-radius: 7px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+form textarea {
+	margin-bottom: 10px;
+	}
+
+/*
+	For Desktop > 800px
+ */
+
+ @media all and (min-width: 800px) {
+
+ }
