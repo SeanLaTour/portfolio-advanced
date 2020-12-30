@@ -289,3 +289,9 @@ h1, h2, h3, p {
 		 padding-right: 450px;
 	 }
  }
+
+ @media all and (min-width: 1400px) {
+	header h1 {
+		padding-right: 600px;
+	}
+}
