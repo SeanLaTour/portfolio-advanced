@@ -136,6 +136,38 @@ h1, h2, h3, p {
 	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.img-bottom {
+	width: 170px;
+	padding-left: 19%;
+	border-radius: 10px;
+}
+
+.img-top {
+	border-radius: 10px;
+	display: none;
+}
+
+@media all and (min-width: 390px) {
+	.img-bottom {
+		width: 200px;
+		padding-left: 22%;
+	}
+}
+
+@media all and (min-width: 455px) {
+	.img-bottom {
+		width: 200px;
+		padding-left: 26%;
+	}
+}
+
+@media all and (min-width: 545px) {
+	.img-bottom {
+		width: 200px;
+		padding-left: 30%;
+	}
+}
+
 /* For Screen larger than 600px */
 
  @media all and (min-width: 600px) {
@@ -146,6 +178,25 @@ h1, h2, h3, p {
 		 padding-left: 30px;
 		 padding-right: 30px;
 	 }
+
+	 header h1 {
+		 font-size: 17px;
+		 padding-right: 75px;
+		 padding-top: 15px;
+	 }
+
+	 .img-bottom {
+		 display: none;
+	 }
+
+	
+	.img-top {
+		display: flex;
+		width: 50px;
+		height: 64px;
+		padding: 5px 5px 5px 5px;
+	}
+	
 
 	 header nav {
 		 display: flex;
@@ -188,9 +239,14 @@ h1, h2, h3, p {
 	 header {
 		 display: flex;
 		 flex-direction: row;
-		 justify-content: space-between;
 		 padding-left: 70px;
 		 padding-right: 70px;
+	 }
+
+	 header h1 {
+		 font-size: 25px;
+		 padding-top: 4px;
+		 padding-right: 300px;
 	 }
 
 	 header nav {
@@ -225,5 +281,11 @@ h1, h2, h3, p {
 	 footer {
 		 padding-left: 70px;
 		 padding-right: 70px;
+	 }
+ }
+
+ @media all and (min-width: 1200px) {
+	 header h1 {
+		 padding-right: 450px;
 	 }
  }
