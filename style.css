@@ -283,9 +283,3 @@ h1, h2, h3, p {
 		 padding-right: 70px;
 	 }
  }
-
- @media all and (min-width: 1200px) {
-	 header h1 {
-		 padding-right: 900px;
-	 }
- }
