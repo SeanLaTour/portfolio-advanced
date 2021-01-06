@@ -3,7 +3,7 @@
  */
 
  body {
-	background-image: url("back.jpg");
+	background-image: url("image-000.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -171,6 +171,9 @@ h1, h2, h3, p {
 /* For Screen larger than 600px */
 
  @media all and (min-width: 600px) {
+	 body{
+		background-image: url("image-001.jpg");
+	 }
 	 header {
 		 display: flex;
 		 flex-direction: row;
