@@ -3,27 +3,27 @@
  */
 
  body {
-	background-image: url("mobileVert.jpg");
-	background-repeat: no-repeat;
+	background-image: url("2232.jpg");
+	background-repeat: repeat;
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: contain;
 }
 
 p {
-	color: #dedede;
+	color: #bcbcbc;
 }
 
 header {
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 10px;
-	background: rgba(0, 20, 22, 0.7);
+	margin: 20px;
+	background: rgba(0, 5, 5, 0.8);
 	border-radius: 7px;
 }
 
 header h1 {
 	text-align: center;
-	color: #dedede;
+	color: #bcbcbc;
 }
 
 header nav {
@@ -39,33 +39,33 @@ header nav ul {
 
 header nav ul li a{
 	margin: 0 20px 0 0;
-	color: #dedede;
+	color: #bcbcbc;
 }
 
 .introduction {
 	padding: 10px 10px 10px 10px;
-	color: #dedede;
-	background: rgba(0, 20, 22, 0.7);
+	color: #bcbcbc;
+	background: rgba(0, 5, 5, 0.8);
 	border-radius: 10px;
-	margin-bottom: 20px;
+	margin: 20px;
 }
 
 .about-me {
 	padding: 10px 10px 10px 10px;
-	color: #dedede;
-	background: rgba(0, 20, 22, 0.7);
+	color: #bcbcbc;
+	background: rgba(0, 5, 5, 0.8);
 	border-radius: 10px;
-	margin-bottom: 20px;
+	margin: 20px;
 }
 
 .skills {
 	display: flex;
 	justify-content: center;
-	color: #dedede;
-	background: rgba(0, 20, 22, 0.7);
+	color: #bcbcbc;
+	background: rgba(0, 5, 5, 0.8);
 	padding: 10px 10px 10px 10px;
 	border-radius: 10px;
-	margin-bottom: 20px;
+	margin: 20px;
 }
 
 .skills-items{
@@ -74,22 +74,22 @@ header nav ul li a{
 }
 
 .projects {
-	padding: 10px 10px 10px 10px;
-	color: #dedede;
-	background: rgba(0, 20, 22, 0.7);
+	padding: 40px 10px 60px 10px;
+	color: #bcbcbc;
+	background: rgba(0, 5, 5, 0.8);
 	border-radius: 10px;
-	margin-bottom: 20px;
+	margin: 20px;
 }
 
 .projects a {
-	color: #dedede;
+	color: #bcbcbc;
 }
 
 .contacts {
 	padding: 10px 50px 10px 50px;
-	color: #dedede;
-	background: rgba(0, 20, 22, 0.7);
-	border-radius: 10px;
+	color: #bcbcbc;
+	background: rgba(0, 5, 5, 0.8);
+	margin: 20px;
 }
 
 .contacts ul {
@@ -107,10 +107,15 @@ header nav ul li a{
 
 footer {
 	text-align: center;
-	color: #dedede;
-	background: rgba(0, 20, 22, 0.7);
+	color: #bcbcbc;
+	background: rgba(0, 5, 5, 0.8);
 	padding: 5px 0 5px 0;
 	border-radius: 10px;
+	margin: 20px;
+}
+
+footer a {
+	color: #dedede;
 }
 
 form {
@@ -129,7 +134,7 @@ textarea, input {
 }
 
 hr {
-	color: rgba(0, 20, 22, 0.7);
+	background: rgba(0, 5, 5, 0.8);
 }
 
 h1, h2, h3, p {
@@ -139,11 +144,10 @@ h1, h2, h3, p {
 .img-bottom {
 	width: 170px;
 	padding-left: 25%;
-	border-radius: 7px;
 }
 
 .img-top {
-	border-radius: 10px;
+	border-radius: 5px;
 	display: none;
 }
 
@@ -171,9 +175,7 @@ h1, h2, h3, p {
 /* For Screen larger than 600px */
 
  @media all and (min-width: 600px) {
-	 body{
-		background-image: url("movileHor.jpg");
-	 }
+
 	 header {
 		 display: flex;
 		 flex-direction: row;
@@ -239,15 +241,13 @@ h1, h2, h3, p {
  /* For Screen larger than 1000px */
 
  @media all and (min-width: 1000px) {
-	body{
-		background-image: url("back.jpg");
-	 }
 
 	 header {
 		 display: flex;
 		 flex-direction: row;
 		 padding-left: 70px;
 		 padding-right: 70px;
+		 margin: 50px;
 	 }
 
 	 header h1 {
@@ -262,31 +262,37 @@ h1, h2, h3, p {
 	 }
 
 	 .skills {
+		 margin: 50px;
 		 justify-content: space-evenly;
 	 }
 
 	 .projects {
 		 padding-left: 70px;
 		 padding-right: 70px;
+		 margin: 50px;
 	 }
 
 	 .about-me {
 		 padding-left: 70px;
 		 padding-right: 70px;
+		 margin: 50px;
 	 }
 
 	 .introduction {
 		 padding-left: 70px;
 		 padding-right: 70px;
+		 margin: 50px;
 	 }
 
 	 .contacts {
 		 padding-left: 290px;
 		 padding-right: 290px;
+		 margin: 50px;
 	 }
 
 	 footer {
 		 padding-left: 70px;
 		 padding-right: 70px;
+		 margin: 50px;
 	 }
  }
