@@ -67,7 +67,6 @@
             <li>JavaScript</li>
             <li>Python</li>
             <li>Java</li>
-            <li>Visual Basic</li>
           </ul>
         </section>
         <section class="skills-items">
@@ -77,6 +76,7 @@
             <li>Sociable</li>
             <li>Punctual</li>
             <li>Motivated</li>
+            <li>Passionate</li>
           </ul>
         </section>
         <section class="skills-items">
@@ -86,17 +86,20 @@
             <li>JSON</li>
             <li>React</li>
             <li>VS Code</li>
+            <li>Bootstrap</li>
           </ul>
         </section>
       </div>
       <div class="projects">
         <article>
+          <section class="project-head">
           <h2>Projects</h2>
           <p>
             Listed here are some of the many projects I have created. I take
             great pride in these accomplishments and hope you enjoy what you
             see!
           </p>
+        </section>
         </article>
         <section>
           <h3>Project One</h3>
@@ -135,7 +138,7 @@
             </li>
             <li>
               <a href="https://www.linkedin.com/in/SLaTour/" target="_blank"
-                >Linked-In</a
+                >Linkedin</a
               >
             </li>
           </ul>
@@ -146,10 +149,13 @@
         </h3>
         <form action="https://formspree.io/f/maylllpy" method="POST">
           <label>Your Name:</label>
+          <div id="name" class="error"></div>
           <input type="text" name="name" />
           <label>Your Email:</label>
+          <div id="email" class="error"></div>
           <input type="email" name="_replyto" />
           <label>Your Message:</label>
+          <div id="message" class="error"></div>
           <textarea name="message"></textarea>
           <input type="submit" value="Send" class="button" />
         </form>

@@ -60,12 +60,13 @@ header nav ul li a{
 
 .skills {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
 	color: #bcbcbc;
 	background: rgba(0, 5, 5, 0.8);
 	padding: 10px 10px 10px 10px;
 	border-radius: 10px;
 	margin: 20px;
+	justify-content: center;
 }
 
 .skills-items{
@@ -73,8 +74,20 @@ header nav ul li a{
 	flex-direction: column;
 }
 
+.skills-items ul {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	list-style: none;
+	padding-left: 5px;
+
+}
+
 .projects {
-	padding: 40px 10px 60px 10px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px 10px 60px 10px;
 	color: #bcbcbc;
 	background: rgba(0, 5, 5, 0.8);
 	border-radius: 10px;
@@ -90,6 +103,12 @@ header nav ul li a{
 	color: #bcbcbc;
 	background: rgba(0, 5, 5, 0.8);
 	margin: 20px;
+	border-radius: 10px;
+}
+
+.contacts h2 {
+	display: flex;
+	justify-content: center;
 }
 
 .contacts ul {
@@ -99,9 +118,8 @@ header nav ul li a{
 }
 
 .contacts ul li a {
-	padding-left: 15px;
 	padding-right: 15px;
-	margin-right: 20px;
+	margin-right: 15px;
 	color: #dedede;
 }
 
@@ -141,14 +159,18 @@ h1, h2, h3, p {
 	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.img-bottom {
-	width: 170px;
-	padding-left: 25%;
+.img-top {
+	display: none;
 }
 
-.img-top {
-	border-radius: 5px;
-	display: none;
+.img-bottom {
+	width: 170px;
+	padding-left: 21%;
+}
+
+.error {
+	color: #de1212;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 @media all and (min-width: 390px) {
@@ -209,13 +231,19 @@ h1, h2, h3, p {
 	 }
 
 	 .skills {
+		 flex-direction: row;
 		 justify-content: space-evenly;
 	 }
 
 	 .projects {
+		 flex-direction: row;
 		 padding-left: 30px;
 		 padding-right: 30px;
 	 }
+
+	 .project-head {
+		margin-right: 30%;
+	}
 
 	 .about-me {
 		 padding-left: 30px;
